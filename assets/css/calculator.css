@@ -1,7 +1,8 @@
 html,body {
-	height: 100%;
+	min-height: 100%;
 	background-color: rgb(21,21,21);
 	font-family: monospace;
+	margin: 0px;
 }
 
 #container {
@@ -122,5 +123,11 @@ button:active {
 
 #side #equal {
 	flex: 2 0 160px;
+}
+
+@media screen and (max-width: 420px) {
+	#container {
+		margin: 20px auto;
+	}
 }
 
